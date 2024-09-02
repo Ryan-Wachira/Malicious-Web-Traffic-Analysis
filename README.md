@@ -69,5 +69,3 @@ This project highlights the importance of thorough traffic analysis in detecting
 ## Author
 - Ryan Wachira
 
-## License
-- MIT License
