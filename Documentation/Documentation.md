@@ -19,12 +19,7 @@ it was evident that the attacker was exploiting an XML External Entity (XXE) vul
 Encoded Payload: The attacker sent the following payload in a POST request to the registration page (/register/register.php):
 
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <name>ahmed</name>
-  <tel>kdjk</tel>
-  <email>&xxe;</email>
-</root>
+3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0d0a0d0a3c726f6f743e0d0a20203c6e616d653e61686d65643c2f6e616d653e0d0a20203c74656c3e6b646a6b3c2f74656c3e0d0a20203c656d61696c3e267878653b3c2f656d61696c3e
 ```
 
 This payload is a typical XXE attack, where the attacker tries to exploit the XML parser by including an external entity reference (&xxe;). This reference can be manipulated to access sensitive data or perform other malicious actions.
