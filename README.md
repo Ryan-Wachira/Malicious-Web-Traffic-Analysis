@@ -67,5 +67,5 @@ During a cybersecurity investigation, unusual traffic patterns were detected, ra
 This project highlights the importance of thorough traffic analysis in detecting and mitigating web-based attacks. The vulnerabilities exploited in this challenge such as XXE and directory traversal underline the need for secure coding practices and vigilant network monitoring.
 
 ## Author
-- Ryan Wachira
+Ryan Wachira
 
